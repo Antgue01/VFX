@@ -6,7 +6,7 @@ using UnityEngine.VFX;
 public class ColumnHandler : MonoBehaviour
 {
     [SerializeField] Transform[] _positions;
-    [SerializeField] Gradient[] _gradients;
+    [SerializeField][GradientUsage(true)] Gradient[] _gradients;
     [SerializeField] VisualEffect _prefab;
     [SerializeField] float[] _speed;
     [SerializeField] float[] _rad;
@@ -14,6 +14,7 @@ public class ColumnHandler : MonoBehaviour
     {
         for (int i = 0; i < _positions.Length; i++)
         {
+            
             VisualEffect e = VisualEffect.Instantiate<VisualEffect>(_prefab, _positions[i].position, transform.rotation, transform);
             e.SetGradient("Color", _gradients[i % _gradients.Length]);
             Column column = e.gameObject.GetComponent<Column>();
