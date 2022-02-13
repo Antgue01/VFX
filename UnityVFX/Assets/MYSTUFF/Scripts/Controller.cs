@@ -193,6 +193,33 @@ public class @Controller : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": true
                 }
             ]
+        },
+        {
+            ""name"": ""Trigger"",
+            ""id"": ""496de5e4-f1b7-49af-9f7f-baf2c5af1149"",
+            ""actions"": [
+                {
+                    ""name"": ""ShootFireWorks"",
+                    ""type"": ""Button"",
+                    ""id"": ""48012a7a-5220-4c12-a1c5-6a71998b0484"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""ac96e330-b04d-453b-8040-43535b7c1556"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ShootFireWorks"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -205,6 +232,9 @@ public class @Controller : IInputActionCollection, IDisposable
         m_Cam = asset.FindActionMap("Cam", throwIfNotFound: true);
         m_Cam_Horizontal = m_Cam.FindAction("Horizontal", throwIfNotFound: true);
         m_Cam_Vertical = m_Cam.FindAction("Vertical", throwIfNotFound: true);
+        // Trigger
+        m_Trigger = asset.FindActionMap("Trigger", throwIfNotFound: true);
+        m_Trigger_ShootFireWorks = m_Trigger.FindAction("ShootFireWorks", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -332,6 +362,39 @@ public class @Controller : IInputActionCollection, IDisposable
         }
     }
     public CamActions @Cam => new CamActions(this);
+
+    // Trigger
+    private readonly InputActionMap m_Trigger;
+    private ITriggerActions m_TriggerActionsCallbackInterface;
+    private readonly InputAction m_Trigger_ShootFireWorks;
+    public struct TriggerActions
+    {
+        private @Controller m_Wrapper;
+        public TriggerActions(@Controller wrapper) { m_Wrapper = wrapper; }
+        public InputAction @ShootFireWorks => m_Wrapper.m_Trigger_ShootFireWorks;
+        public InputActionMap Get() { return m_Wrapper.m_Trigger; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(TriggerActions set) { return set.Get(); }
+        public void SetCallbacks(ITriggerActions instance)
+        {
+            if (m_Wrapper.m_TriggerActionsCallbackInterface != null)
+            {
+                @ShootFireWorks.started -= m_Wrapper.m_TriggerActionsCallbackInterface.OnShootFireWorks;
+                @ShootFireWorks.performed -= m_Wrapper.m_TriggerActionsCallbackInterface.OnShootFireWorks;
+                @ShootFireWorks.canceled -= m_Wrapper.m_TriggerActionsCallbackInterface.OnShootFireWorks;
+            }
+            m_Wrapper.m_TriggerActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @ShootFireWorks.started += instance.OnShootFireWorks;
+                @ShootFireWorks.performed += instance.OnShootFireWorks;
+                @ShootFireWorks.canceled += instance.OnShootFireWorks;
+            }
+        }
+    }
+    public TriggerActions @Trigger => new TriggerActions(this);
     public interface IMoveActions
     {
         void OnVertical(InputAction.CallbackContext context);
@@ -341,5 +404,9 @@ public class @Controller : IInputActionCollection, IDisposable
     {
         void OnHorizontal(InputAction.CallbackContext context);
         void OnVertical(InputAction.CallbackContext context);
+    }
+    public interface ITriggerActions
+    {
+        void OnShootFireWorks(InputAction.CallbackContext context);
     }
 }

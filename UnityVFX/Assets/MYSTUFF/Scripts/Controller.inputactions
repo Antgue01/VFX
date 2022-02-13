@@ -180,6 +180,33 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "Trigger",
+            "id": "496de5e4-f1b7-49af-9f7f-baf2c5af1149",
+            "actions": [
+                {
+                    "name": "ShootFireWorks",
+                    "type": "Button",
+                    "id": "48012a7a-5220-4c12-a1c5-6a71998b0484",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ac96e330-b04d-453b-8040-43535b7c1556",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootFireWorks",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/AJ/Desktop/Uni/Autodidacta/Unity/VFX/Unity
+C:/Users/AJ/Desktop/Uni/Autodidacta/VFX/UnityVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58415
-Successfully changed project path to: C:/Users/AJ/Desktop/Uni/Autodidacta/Unity/VFX/Unity
-C:/Users/AJ/Desktop/Uni/Autodidacta/Unity/VFX/Unity
+49154
+Successfully changed project path to: C:/Users/AJ/Desktop/Uni/Autodidacta/VFX/UnityVFX
+C:/Users/AJ/Desktop/Uni/Autodidacta/VFX/UnityVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 472.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/AJ/Desktop/Uni/Autodidacta/Unity/VFX/Unity/Assets
+[Subsystems] Discovering subsystems at path C:/Users/AJ/Desktop/Uni/Autodidacta/VFX/UnityVFX/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005171 seconds.
+Registered in 0.001313 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 227.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.248 seconds
+- Completed reload, in  1.389 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011130 seconds.
+Registered in 0.003661 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 169.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.424 seconds
+- Completed reload, in  1.159 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4072 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.1 MB.
-System memory in use after: 192.3 MB.
+Unloading 4090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.5 MB.
+System memory in use after: 194.7 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4523.
-Total: 8.985100 ms (FindLiveObjects: 0.975400 ms CreateObjectMapping: 0.575500 ms MarkObjects: 7.241600 ms  DeleteObjects: 0.188500 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4545.
+Total: 4.978600 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.134900 ms MarkObjects: 4.385300 ms  DeleteObjects: 0.101000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,16 +79,1002 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(711978c9ea13d5f449ce3ac17ad24a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(711978c9ea13d5f449ce3ac17ad24a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2916a83762326030e95d4d9ea008f029') in 0.025754 seconds 
-  Import took 0.041384 seconds .
+  path: Assets/MYSTUFF/Images/HEART.png
+  artifactKey: Guid(e25b43a1a9a250b428eedbdaef87091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/HEART.png using Guid(e25b43a1a9a250b428eedbdaef87091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af304468babfcd6e22cdac5b9541f0f') in 0.047217 seconds 
+  Import took 0.052463 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/MYSTUFF/main.unity
-  artifactKey: Guid(a2e2eaae23f28ca4f9f3af7eac26f05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MYSTUFF/main.unity using Guid(a2e2eaae23f28ca4f9f3af7eac26f05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a869a70d9a349e503fdcbfc485494af') in 0.028710 seconds 
-  Import took 0.044160 seconds .
+  Time since last request: 0.000194 seconds.
+  path: Assets/MYSTUFF/Images/Rocola.png
+  artifactKey: Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Rocola.png using Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c742d6f1f8333629e566f8f82f5682c5') in 0.007884 seconds 
+  Import took 0.013031 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/MYSTUFF/Images/Capilla.png
+  artifactKey: Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Capilla.png using Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35231f179ed1f5832549d03e48152167') in 0.007138 seconds 
+  Import took 0.011985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547464043724a0c5eeaf6d57ab07275d') in 0.007196 seconds 
+  Import took 0.012073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018461 seconds.
+  path: Assets/MYSTUFF/Images/Capilla.png
+  artifactKey: Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Capilla.png using Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35231f179ed1f5832549d03e48152167') in 0.004817 seconds 
+  Import took 0.009717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.478280 seconds.
+  path: Assets/MYSTUFF/Images/Capilla.png
+  artifactKey: Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Capilla.png using Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613b0fa42fa4fb27c2c33464f54ee8e6') in 0.033132 seconds 
+  Import took 0.038219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014226 seconds.
+  path: Assets/MYSTUFF/Images/Capilla.png
+  artifactKey: Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Capilla.png using Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613b0fa42fa4fb27c2c33464f54ee8e6') in 0.006737 seconds 
+  Import took 0.011648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.231829 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db648fa5e474f84edf31a8b41dcbbd8a') in 0.009072 seconds 
+  Import took 0.014435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035663 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db648fa5e474f84edf31a8b41dcbbd8a') in 0.006510 seconds 
+  Import took 0.011541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.049818 seconds.
+  path: Assets/MYSTUFF/Images/HEART.png
+  artifactKey: Guid(e25b43a1a9a250b428eedbdaef87091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/HEART.png using Guid(e25b43a1a9a250b428eedbdaef87091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8221cd1a0529fe63c80797603de74c8a') in 0.012820 seconds 
+  Import took 0.018254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032102 seconds.
+  path: Assets/MYSTUFF/Images/HEART.png
+  artifactKey: Guid(e25b43a1a9a250b428eedbdaef87091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/HEART.png using Guid(e25b43a1a9a250b428eedbdaef87091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8221cd1a0529fe63c80797603de74c8a') in 0.011223 seconds 
+  Import took 0.016588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.086300 seconds.
+  path: Assets/MYSTUFF/Images/Rocola.png
+  artifactKey: Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Rocola.png using Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd621c1b3ad9a888124668b0238bf2a5') in 0.010632 seconds 
+  Import took 0.015968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034596 seconds.
+  path: Assets/MYSTUFF/Images/Rocola.png
+  artifactKey: Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Rocola.png using Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd621c1b3ad9a888124668b0238bf2a5') in 0.007186 seconds 
+  Import took 0.012235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.011966 seconds.
+  path: Assets/Visual Effects Defaults.asset
+  artifactKey: Guid(4ef7a053b642f694a841c4659ceda40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Effects Defaults.asset using Guid(4ef7a053b642f694a841c4659ceda40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Having more than one VFXResources in your project is unsupported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.VFX.VFXResources:OnEnable () (at Library/PackageCache/com.unity.visualeffectgraph@10.5.1/Editor/Utils/VFXResources.cs:47)
+
+(Filename: Library/PackageCache/com.unity.visualeffectgraph@10.5.1/Editor/Utils/VFXResources.cs Line: 47)
+
+ -> (artifact id: '2405dc9b912419fc17496f3fe9711e78') in 0.022686 seconds 
+  Import took 0.028409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.301356 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1da81e11c438784ace61bd2f7ecf12') in 0.008865 seconds 
+  Import took 0.014815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.223237 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328f824191823c00a01cbce4a5a70bf6') in 0.003411 seconds 
+  Import took 0.009271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037298 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328f824191823c00a01cbce4a5a70bf6') in 0.002927 seconds 
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.368878 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9d244a68de1c5a4bd19a3ecf4f5dd3') in 0.003045 seconds 
+  Import took 0.009286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035872 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9d244a68de1c5a4bd19a3ecf4f5dd3') in 0.002971 seconds 
+  Import took 0.008212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.144944 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7e0f2804419afa1a870a71dc5a1eee') in 0.002784 seconds 
+  Import took 0.008042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033810 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7e0f2804419afa1a870a71dc5a1eee') in 0.003045 seconds 
+  Import took 0.008185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 592.918149 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6709a1d87fa077e963d32195c604510b') in 0.003596 seconds 
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.866389 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677f22631c73f3464553e4b2aea66e46') in 0.003040 seconds 
+  Import took 0.008570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.258628 seconds.
+  path: Assets/MYSTUFF/Scripts/Controller.inputactions
+  artifactKey: Guid(16f4a82466f733f4daa45ebd9a17a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Scripts/Controller.inputactions using Guid(16f4a82466f733f4daa45ebd9a17a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf26bc24ba1c3db221676f7c4223271') in 0.011227 seconds 
+  Import took 0.017222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.729832 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Albedo.png
+  artifactKey: Guid(218a2347bc3ab2f4a90790e60b49b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Albedo.png using Guid(218a2347bc3ab2f4a90790e60b49b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5736e0c92ed2fc875e50116658ccab') in 0.013554 seconds 
+  Import took 0.019630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_MAODS.png
+  artifactKey: Guid(4908c5801c2e45f4ba41d435be86f5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_MAODS.png using Guid(4908c5801c2e45f4ba41d435be86f5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35973e00cca660974f867b6c04c7228b') in 0.012286 seconds 
+  Import took 0.017402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Normal.png
+  artifactKey: Guid(220d1c644e262794d9fff5f4c5543142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Normal.png using Guid(220d1c644e262794d9fff5f4c5543142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fb90df91b280c8e3426669297dd612') in 0.014159 seconds 
+  Import took 0.019111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076819 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Albedo.png
+  artifactKey: Guid(218a2347bc3ab2f4a90790e60b49b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteMatteGrey_Albedo.png using Guid(218a2347bc3ab2f4a90790e60b49b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5736e0c92ed2fc875e50116658ccab') in 0.008413 seconds 
+  Import took 0.013829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.398516 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/Bush_01_MAODS.png
+  artifactKey: Guid(5618ce3251344d743a4f94e92a46e6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/Bush_01_MAODS.png using Guid(5618ce3251344d743a4f94e92a46e6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444abdc197a3437c265b866a9d57f626') in 0.013426 seconds 
+  Import took 0.019512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteHoles_MAODS.png
+  artifactKey: Guid(3c37174c3fa9e7646b00e37ea0871adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteHoles_MAODS.png using Guid(3c37174c3fa9e7646b00e37ea0871adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3eac1f5b8739c5276c9233f5736877b') in 0.014522 seconds 
+  Import took 0.019644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/Bush_01_Normal.png
+  artifactKey: Guid(f9d8b252b0a372e409bd532d908b970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/Bush_01_Normal.png using Guid(f9d8b252b0a372e409bd532d908b970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc10c6ea4a4b383be471d53f813915e') in 0.014800 seconds 
+  Import took 0.019847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteHoles_Albedo.png
+  artifactKey: Guid(2b99f0294fbead04c982891ea9dffe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteHoles_Albedo.png using Guid(2b99f0294fbead04c982891ea9dffe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37191e67c991b61e815fcbfcfdec71d3') in 0.014155 seconds 
+  Import took 0.019162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SampleSceneAssets/Textures/VFX/ButterFlies_8x1.png
+  artifactKey: Guid(bd8ecf28fc2ab684fa1a57ee707e5214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/VFX/ButterFlies_8x1.png using Guid(bd8ecf28fc2ab684fa1a57ee707e5214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbde94a0fb080fc939231357e4a7b89') in 0.011938 seconds 
+  Import took 0.016794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.760254 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteRough_Albedo.png
+  artifactKey: Guid(b474a739586db374ab8f3851f7c7295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteRough_Albedo.png using Guid(b474a739586db374ab8f3851f7c7295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a82306f32b076adf9cbe75b399e07') in 0.012400 seconds 
+  Import took 0.017972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082320 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteRough_Albedo.png
+  artifactKey: Guid(b474a739586db374ab8f3851f7c7295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteRough_Albedo.png using Guid(b474a739586db374ab8f3851f7c7295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a82306f32b076adf9cbe75b399e07') in 0.008597 seconds 
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752553 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-6.exr
+  artifactKey: Guid(bcc5d397b6334c64dab068d6bb859803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-6.exr using Guid(bcc5d397b6334c64dab068d6bb859803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fb2d01cf86362f0f2f7e49896ea896') in 0.055057 seconds 
+  Import took 0.060489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-11.exr
+  artifactKey: Guid(1b5727504ffe4b247b09ed4502ffc116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-11.exr using Guid(1b5727504ffe4b247b09ed4502ffc116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a11b38e75a93184b18329e8b4c8321') in 0.035554 seconds 
+  Import took 0.040655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-7.exr
+  artifactKey: Guid(db9a1847f2c6ae34c9ec4947ce906bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-7.exr using Guid(db9a1847f2c6ae34c9ec4947ce906bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb502a217f72578d96aaca4c9b2c260') in 0.034933 seconds 
+  Import took 0.040206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-10.exr
+  artifactKey: Guid(0b0c990f63a874c4fbeadb86375b8fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-10.exr using Guid(0b0c990f63a874c4fbeadb86375b8fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0155aa4f6e293f976816d83e9cf24858') in 0.037497 seconds 
+  Import took 0.042610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-8.exr
+  artifactKey: Guid(7f20f555bfbdcaa46a2cc1e0075120a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-8.exr using Guid(7f20f555bfbdcaa46a2cc1e0075120a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a484282e0fc9c6c2b0b7305451d20d') in 0.035233 seconds 
+  Import took 0.040227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-6.exr
+  artifactKey: Guid(bcc5d397b6334c64dab068d6bb859803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-6.exr using Guid(bcc5d397b6334c64dab068d6bb859803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fb2d01cf86362f0f2f7e49896ea896') in 0.029348 seconds 
+  Import took 0.034322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-12.exr
+  artifactKey: Guid(8481e7bae45102c41afa57230dceda46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-12.exr using Guid(8481e7bae45102c41afa57230dceda46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49206b03fc9fb46e4b7c815ba5167894') in 0.039083 seconds 
+  Import took 0.044566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-9.exr
+  artifactKey: Guid(f0e7f0a8b752e40488ce09f05f1ac2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-9.exr using Guid(f0e7f0a8b752e40488ce09f05f1ac2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84c74e21ebe4a6a717c6d65137ce87') in 0.036565 seconds 
+  Import took 0.041772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020242 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-7.exr
+  artifactKey: Guid(db9a1847f2c6ae34c9ec4947ce906bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-7.exr using Guid(db9a1847f2c6ae34c9ec4947ce906bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb502a217f72578d96aaca4c9b2c260') in 0.027341 seconds 
+  Import took 0.032353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.919846 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/DecalSheet_01A_BC.png
+  artifactKey: Guid(989cdd44d30f8c940ab150bdccfd5beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/DecalSheet_01A_BC.png using Guid(989cdd44d30f8c940ab150bdccfd5beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6bd421f6b8a4fa8b3ef63dd94e53a6') in 0.013322 seconds 
+  Import took 0.018566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/DecalSheet_01A_MOADS.png
+  artifactKey: Guid(875044e800abcbe47985126630618483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/DecalSheet_01A_MOADS.png using Guid(875044e800abcbe47985126630618483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660f77f8ac797e9762fa66b7c1af457a') in 0.012168 seconds 
+  Import took 0.017166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.531562 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7970bd830616e7ef9992b780d74361b') in 0.003274 seconds 
+  Import took 0.010010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.111205 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bafa3966b8bd9863511b24a024d7c48') in 0.003005 seconds 
+  Import took 0.008240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.645142 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c8511ceacd8d480779738085527a17') in 0.003071 seconds 
+  Import took 0.008427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.872271 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3fb7db0c1769a28c12e350e39f98cb') in 0.002863 seconds 
+  Import took 0.008099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.267691 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8023dc423d89f2cc4912c219aa6d34e5') in 0.002991 seconds 
+  Import took 0.008267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.107445 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbf283ed1d4e29920465fcc179dd69b') in 0.002849 seconds 
+  Import took 0.008029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbf283ed1d4e29920465fcc179dd69b') in 0.002820 seconds 
+  Import took 0.008103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.577167 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c03e5215cb7119c38268b6ee6aecf5') in 0.003110 seconds 
+  Import took 0.008787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.201698 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a05814546704c50cbf8bb41271c48a') in 0.003077 seconds 
+  Import took 0.008378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.842032 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090483391ea47fc82159408b2bab7193') in 0.002925 seconds 
+  Import took 0.008219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.537907 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e26f2b2e00d8458f1fecc42ea6ab8db') in 0.003081 seconds 
+  Import took 0.008532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.794418 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e78a2c6d93344c01eeac6e28044863') in 0.002970 seconds 
+  Import took 0.008237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.900794 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978429269d2308fefdafa5a674b9e702') in 0.003284 seconds 
+  Import took 0.008766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.210404 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e8e2e9c06d24cc4949fdf7f5d8399') in 0.003220 seconds 
+  Import took 0.008636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.655175 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ed6ce8ad69affe810448ab215a15fc') in 0.002805 seconds 
+  Import took 0.008575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.349776 seconds.
+  path: Assets/MYSTUFF/Images/Capilla.png
+  artifactKey: Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Capilla.png using Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687b0ee5db3b6cbfac8ee4a8fae5864e') in 0.013578 seconds 
+  Import took 0.020304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/MYSTUFF/Images/Rocola.png
+  artifactKey: Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Rocola.png using Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd8d24a1ec0283dac4729bbeab3b3f5') in 0.009606 seconds 
+  Import took 0.014838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99374f633e9732d8faba4b4c262f0b2f') in 0.008693 seconds 
+  Import took 0.013772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.005424 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b516c92c17369bd2f47b54d94d265cd9') in 0.003242 seconds 
+  Import took 0.008576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.207639 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b5e59890bc4022d2b365974b524f63') in 0.003337 seconds 
+  Import took 0.009267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.061798 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6fb6100c01b04b7631c1e73e356205') in 0.003330 seconds 
+  Import took 0.010192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.412284 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8750da59ceecd8cca203c9e632ebf67') in 0.003726 seconds 
+  Import took 0.009057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.726399 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f0437341d4aacab0a790c550d9db42') in 0.004398 seconds 
+  Import took 0.013276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.913275 seconds.
+  path: Assets/MYSTUFF/Images/Capilla.png
+  artifactKey: Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Capilla.png using Guid(513540f55c90ef14cabcad6a7692f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb4c1c1047a44b11548549c0ecbe55') in 0.013635 seconds 
+  Import took 0.021414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/MYSTUFF/Images/Rocola.png
+  artifactKey: Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Rocola.png using Guid(927ef19aa94beeb46a4758899fa931ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc424869e5854c6947ad39dac146558f') in 0.014621 seconds 
+  Import took 0.021434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4387b5a62189cf77db1d01aa2080860') in 0.012756 seconds 
+  Import took 0.020208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.216979 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9c6c5d9812c1871a721cfc96fcc438') in 0.005052 seconds 
+  Import took 0.013636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.436379 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ecba5bb5990bd5fc0cba80f55b0692') in 0.004627 seconds 
+  Import took 0.013494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.658689 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63e50b524eb946cb468fffebd352a4e') in 0.022895 seconds 
+  Import took 0.033844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028972 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63e50b524eb946cb468fffebd352a4e') in 0.009358 seconds 
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.785560 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f39084bb003c55334f18968d6f118e') in 0.004244 seconds 
+  Import took 0.010959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.656792 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a796e25beae415b602804cf23ba73a1') in 0.004687 seconds 
+  Import took 0.014286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.735460 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4f83bb7a0e44da95945a0bc2932345') in 0.005042 seconds 
+  Import took 0.014979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.547045 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f34c3840645a78164a81de2ded3dfe2') in 0.005734 seconds 
+  Import took 0.017080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.352179 seconds.
+  path: Assets/MYSTUFF/PointCaches/Capilla.pcache
+  artifactKey: Guid(04f059fea36004844b46040b34989be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/Capilla.pcache using Guid(04f059fea36004844b46040b34989be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0f8f495558afb1661ca23d8e6aece3') in 0.014298 seconds 
+  Import took 0.022549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/MYSTUFF/PointCaches/PumpkingInside.pcache
+  artifactKey: Guid(735441cd0850b634981c7a78755461de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/PumpkingInside.pcache using Guid(735441cd0850b634981c7a78755461de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3084a13d9a75ab2f1bac64da94e9598') in 0.012737 seconds 
+  Import took 0.019599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/MYSTUFF/PointCaches/PumpkingInside2.pcache
+  artifactKey: Guid(93c4711a602e5a748829f142748eca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/PumpkingInside2.pcache using Guid(93c4711a602e5a748829f142748eca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5730a4e5e2d81410f563d8789a906d') in 0.011154 seconds 
+  Import took 0.017995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/MYSTUFF/PointCaches/Gracias.pcache
+  artifactKey: Guid(4c1fb91e62c8bbb439f915a63094e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/Gracias.pcache using Guid(4c1fb91e62c8bbb439f915a63094e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feeea0655fe9fe6d33f5209a4443551') in 0.021889 seconds 
+  Import took 0.029723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/MYSTUFF/PointCaches/HEART.pcache
+  artifactKey: Guid(019e2eceb8a6c9e499251a2fe64e9553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/HEART.pcache using Guid(019e2eceb8a6c9e499251a2fe64e9553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1261d57071d5bfcb4a888560d2c0ad9c') in 0.013781 seconds 
+  Import took 0.021428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/MYSTUFF/PointCaches/Rocola.pcache
+  artifactKey: Guid(411695dc0553c374c906dc84ab7bd173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/Rocola.pcache using Guid(411695dc0553c374c906dc84ab7bd173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01597fefd853fde01af602f6d97433a5') in 0.013983 seconds 
+  Import took 0.022492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/MYSTUFF/PointCaches/PumpkingInside3.pcache
+  artifactKey: Guid(54d62e3ec8848f94cb5dcc571a1120b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/PumpkingInside3.pcache using Guid(54d62e3ec8848f94cb5dcc571a1120b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c324f941b3b84864bded96b841a6bf3f') in 0.012631 seconds 
+  Import took 0.020584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.556212 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4ea362903fa3a2b9676ae889c4d5db') in 0.005325 seconds 
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.687304 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1409bca4235bd0a6493ea1c76024006') in 0.004732 seconds 
+  Import took 0.016202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.382591 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bdffc3927992e96e84310e6a68a88e') in 0.006259 seconds 
+  Import took 0.016603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.059812 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5afbf7e24d420f5bf60a3a4fd0f410') in 0.006004 seconds 
+  Import took 0.016324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.131630 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef26f82c4a1b2be45b32eab469d405f') in 0.005229 seconds 
+  Import took 0.014438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.940977 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30066cfd6259e9527844c54f5e91aed') in 0.005346 seconds 
+  Import took 0.015185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.986083 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac0fe1816a0f27bc792bce0d46a959f') in 0.005572 seconds 
+  Import took 0.016784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.456353 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ec06909ed2523a68c791398ddbfcf1') in 0.006204 seconds 
+  Import took 0.019776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.915221 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4c7473f9cc8f72b7c74064194b4c0c') in 0.006396 seconds 
+  Import took 0.016047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.329718 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96853fe5e7132596b42b58e32e39313') in 0.005733 seconds 
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.711099 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bea107dbbc9e8d21370b7d53ceec28') in 0.005245 seconds 
+  Import took 0.014791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.342434 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteRough_MAODS.png
+  artifactKey: Guid(d2a4e8cbaf150bd4da04ea6b4f5ca2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteRough_MAODS.png using Guid(d2a4e8cbaf150bd4da04ea6b4f5ca2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e12167aab781d891ae51772a3d318d1') in 0.024314 seconds 
+  Import took 0.034046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteRough_Normal.png
+  artifactKey: Guid(d27afe850f7bc4b48bdc67be58bad39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteRough_Normal.png using Guid(d27afe850f7bc4b48bdc67be58bad39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca422193f7419ce5b4f93766b8783aaa') in 0.024168 seconds 
+  Import took 0.032952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteRough_MAODS.png
+  artifactKey: Guid(d2a4e8cbaf150bd4da04ea6b4f5ca2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteRough_MAODS.png using Guid(d2a4e8cbaf150bd4da04ea6b4f5ca2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e12167aab781d891ae51772a3d318d1') in 0.012541 seconds 
+  Import took 0.021581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007002 seconds.
+  path: Assets/SampleSceneAssets/Textures/General/ConcreteRough_Normal.png
+  artifactKey: Guid(d27afe850f7bc4b48bdc67be58bad39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Textures/General/ConcreteRough_Normal.png using Guid(d27afe850f7bc4b48bdc67be58bad39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca422193f7419ce5b4f93766b8783aaa') in 0.017084 seconds 
+  Import took 0.025886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.410503 seconds.
+  path: Assets/MYSTUFF/Images/Gracias.png
+  artifactKey: Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/Images/Gracias.png using Guid(ba98e1477d515054da8f794827b6e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e79a9eccc9327d6c876d139168f72f6') in 0.017395 seconds 
+  Import took 0.026740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.966995 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb69723437d4f5197e0b091ef2b2c9') in 0.005423 seconds 
+  Import took 0.014701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005400 seconds.
+  path: Assets/MYSTUFF/PointCaches/Gracias.pcache
+  artifactKey: Guid(4c1fb91e62c8bbb439f915a63094e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/PointCaches/Gracias.pcache using Guid(4c1fb91e62c8bbb439f915a63094e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8952586ce4f88344a30f88f4795b7008') in 0.017415 seconds 
+  Import took 0.026190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.064576 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a445fcb0bab6f8f5be3b4cbde15d787') in 0.005685 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.581341 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ff4dd90e288dca5402d9fca7dbbe78') in 0.005256 seconds 
+  Import took 0.016052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.401764 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205af1c5e94096c2b0307bdde925d9f5') in 0.005492 seconds 
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.262376 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb637730cc2cbe97bfeb022c9fd093d') in 0.005308 seconds 
+  Import took 0.014736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.002636 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b4989dde78dc384fa3419ba5d5b26f') in 0.005971 seconds 
+  Import took 0.015639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.259064 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9e23c0bf0b03bd766f82a603bef78d') in 0.005481 seconds 
+  Import took 0.014964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.912062 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905c2afd6823f251707fa21477975d0d') in 0.005601 seconds 
+  Import took 0.015390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.736339 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be935be08f8aabf8f879ec688ab6fa8') in 0.005809 seconds 
+  Import took 0.015252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.317289 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6524ecddfb0f55c2254c3cc501aafdbb') in 0.005346 seconds 
+  Import took 0.014645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.814825 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc6adbfa40fc3da3799e25607830d9e') in 0.005537 seconds 
+  Import took 0.015358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.637828 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2df533f3c2c9869e7c6b43dbe62076') in 0.005548 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.273213 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89b57ea67214d676ad7332af8268cc5') in 0.005549 seconds 
+  Import took 0.016289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.566016 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c891c6bd9cc394a0d6b3335bf9fd7450') in 0.005430 seconds 
+  Import took 0.015261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.725708 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf57ee3f1e0cf85e26a8b730bc5e4b3') in 0.005814 seconds 
+  Import took 0.015462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.216744 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31127d10b539d069298468eb226ffa1a') in 0.005944 seconds 
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.564355 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40774b2f56c29cc913415bf232f757b9') in 0.005921 seconds 
+  Import took 0.017361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.292455 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e0f3e4324eeb07eff9b853764e858c') in 0.006854 seconds 
+  Import took 0.019884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.723927 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ef73a74c7683254c9119a76b7eb4ed') in 0.006059 seconds 
+  Import took 0.015323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.285576 seconds.
+  path: Assets/MYSTUFF/VFX/Fireworks.vfx
+  artifactKey: Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MYSTUFF/VFX/Fireworks.vfx using Guid(5fceaf1850d394b4f91cf558a1d52361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e470eb63550fe08d762d7ffee662cd') in 0.005627 seconds 
+  Import took 0.015593 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

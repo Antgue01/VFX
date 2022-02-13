@@ -17,6 +17,5 @@ public class CameraMove : MonoBehaviour
     {
         Camera.main.transform.Rotate(new Vector3(_controller.Cam.Vertical.ReadValue<float>(),_controller.Cam.Horizontal.ReadValue<float>(),0)
             * _spd * Time.deltaTime);
-        print(_controller.Cam.Horizontal.ReadValue<float>());
     }
 }
