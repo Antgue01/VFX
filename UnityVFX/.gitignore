@@ -5,6 +5,9 @@
 [Bb]uilds/
 [Ll]ogs/
 Assets/AssetStoreTools*
+Assets/MeshToSDF-sample/*
+Assets/MYSTUFF/Houdini/Invincibility/backup/*
+Assets/MYSTUFF/Images/.autosave/*
 
 # Visual Studio cache directory
 .vs/
