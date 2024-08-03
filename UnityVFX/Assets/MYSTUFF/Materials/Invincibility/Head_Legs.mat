@@ -27,19 +27,22 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: de95f006fe46128468df104ae474918a, type: 3}
   m_Parent: {fileID: -876546973899608171, guid: de95f006fe46128468df104ae474918a, type: 3}
   m_ModifiedSerializedProperties: 16
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  - _ENABLE_FOG_ON_TRANSPARENT
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
+    RenderType: Transparent
   disabledShaderPasses:
-  - TransparentDepthPrepass
-  - MOTIONVECTORS
   - TransparentBackface
+  - MOTIONVECTORS
+  - RayTracingPrepass
   - TransparentDepthPostpass
   m_LockedProperties: 
   m_SavedProperties:
@@ -61,16 +64,22 @@ Material:
         m_Texture: {fileID: 2800000, guid: c2c88955f5474d742bfd197a32ef9de2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SDF:
+        m_Texture: {fileID: 8600000, guid: ce7f9cc36009cda4090bb1e88e7036bc, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Specular:
         m_Texture: {fileID: 2800000, guid: 46c3099c985d17449bb31f43fa835de1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaDstBlend: 0
+    - _AlphaDstBlend: 10
     - _CullMode: 2
     - _CullModeForward: 2
-    - _DstBlend: 0
-    - _ZTestDepthEqualForOpaque: 3
+    - _Distortion_Active: 0
+    - _DstBlend: 10
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
     m_Colors: []
   m_BuildTextureStacks: []
