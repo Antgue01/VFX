@@ -1131,7 +1131,9 @@ MonoBehaviour:
   attribute: position
   Composition: 1
   SampleMode: 4
+  mode: 0
   channels: 6
+  usePointCount: 0
 --- !u!114 &114185218670959086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1191,7 +1193,6 @@ MonoBehaviour:
   m_ActivationSlot: {fileID: 8926484042661615604}
   mode: 6
   axes: 4
-  faceRay: 1
 --- !u!114 &114196410525350660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2441,7 +2442,6 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
-  - {fileID: 8926484042661615543}
   - {fileID: 114750472525256218}
   m_OutputSlots: []
   m_Label: 
@@ -2475,11 +2475,7 @@ MonoBehaviour:
   castShadows: 0
   useExposureWeight: 0
   flipbookLayout: 0
-  enableRayTracing: 0
-  decimationFactor: 1
-  raytracedScaleMode: 0
   needsOwnSort: 0
-  needsOwnAabbBuffer: 0
   shaderGraph: {fileID: 0}
   materialSettings:
     m_PropertyNames: []
@@ -6017,7 +6013,7 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 11
+  m_GraphVersion: 12
   m_ResourceVersion: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
@@ -7593,9 +7589,8 @@ VisualEffectResource:
   m_Graph: {fileID: 114774958703785540}
   m_Infos:
     m_RendererSettings:
-      motionVectorGenerationMode: 1
+      motionVectorGenerationMode: 0
       shadowCastingMode: 0
-      rayTracingMode: 0
       receiveShadows: 0
       reflectionProbeUsage: 0
       lightProbeUsage: 0
@@ -14579,40 +14574,6 @@ MonoBehaviour:
     m_Space: 2147483647
   m_Property:
     name: Bounce
-    m_serializedType:
-      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 0
-  m_LinkedSlots: []
---- !u!114 &8926484042661615543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661615543}
-  m_MasterData:
-    m_Owner: {fileID: 114380153363027006}
-    m_Value:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0
-    m_Space: 2147483647
-  m_Property:
-    name: alphaThreshold
     m_serializedType:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
