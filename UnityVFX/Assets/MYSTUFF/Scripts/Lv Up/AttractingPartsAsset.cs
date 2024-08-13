@@ -8,6 +8,8 @@ public class AttractingPartsAsset : PlayableAsset
 {
     public ExposedReference<Transform> SpherePos;
     public ExposedReference<VisualEffect> VFX;
+
+
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
     {
         var playable = ScriptPlayable<AttractingParticlesBehaviour>.Create(graph);

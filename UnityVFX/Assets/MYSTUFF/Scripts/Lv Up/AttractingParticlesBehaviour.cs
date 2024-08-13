@@ -8,6 +8,7 @@ public class AttractingParticlesBehaviour : PlayableBehaviour
 {
     Transform _transform;
     VisualEffect _vfx;
+
     public void Initialize(Transform t, VisualEffect vfx)
     {
         _transform = t;
