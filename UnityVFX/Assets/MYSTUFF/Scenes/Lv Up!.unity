@@ -680,6 +680,37 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &780635756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780635757}
+  m_Layer: 0
+  m_Name: "Revisar el sparkler para ver c\xF3mo hice la m\xE1scara de arriba a abajo"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &780635757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780635756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.35876617, y: 0.062229395, z: -0.24168754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &875040378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,37 +1247,6 @@ Transform:
   m_Father: {fileID: 926639324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1159710717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1159710718}
-  m_Layer: 0
-  m_Name: El blur del Expansion Width se nota demasiado, no me gusta
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1159710718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159710717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35876617, y: 0.062229395, z: -0.24168754}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1270568810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,19 +1725,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.21
+      value: 6.1400003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_LocalScale.y
-      value: 18.06
+      value: 26.339287
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.21
+      value: 6.1400003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.033
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1779,24 +1779,56 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ed107f1d45c0694cbcd603d266a41ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_Name
       value: Expansion Tall
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1716935017}
   m_SourcePrefab: {fileID: 100100000, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
 --- !u!4 &1716935015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
   m_PrefabInstance: {fileID: 1716935014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1716935016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f88fbd96f99217479414eafdcde93ff, type: 3}
+  m_PrefabInstance: {fileID: 1716935014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1716935017
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716935016}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b32a7d672615e3a40b0af00239b908f3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1821177835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,6 +1879,8 @@ PlayableDirector:
     value: {fileID: 11445509}
   - key: {fileID: -4793284348302453311, guid: 525e203d1b325324194794e634db3709, type: 2}
     value: {fileID: 1368050260}
+  - key: {fileID: 8246715468512995215, guid: 525e203d1b325324194794e634db3709, type: 2}
+    value: {fileID: 1716935017}
   m_ExposedReferences:
     m_References:
     - e32ef00845a8b8a429dacb7e06faa04b: {fileID: 875040383}
@@ -1871,37 +1905,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1903799639
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1903799640}
-  m_Layer: 0
-  m_Name: La curva del dissolve del Expansino Width
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1903799640
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903799639}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35876617, y: 0.062229395, z: -0.24168754}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &2038353333
 Material:

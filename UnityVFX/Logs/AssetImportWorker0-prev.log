@@ -15,7 +15,7 @@ C:/Users/madar/Downloads/VFX/UnityVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53062
+60377
 Successfully changed project path to: C:/Users/madar/Downloads/VFX/UnityVFX
 C:/Users/madar/Downloads/VFX/UnityVFX
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/madar/Downloads/VFX/UnityVFX
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23644] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 803840684 [EditorId] 803840684 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1960] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 1708058756 [EditorId] 1708058756 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23644] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 803840684 [EditorId] 803840684 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1960] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 1708058756 [EditorId] 1708058756 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003693 seconds.
-- Loaded All Assemblies, in  0.191 seconds
+Registered in 0.004137 seconds.
+- Loaded All Assemblies, in  0.321 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.160 seconds
+- Finished resetting the current domain, in  0.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (110ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (181ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (39ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
-				TypeCache.Initialize (76ms)
-					TypeCache.ScanAssembly (75ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (135ms)
+				TypeCache.Initialize (134ms)
+					TypeCache.ScanAssembly (132ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (125ms)
+			SetupLoadedEditorAssemblies (155ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,48 +109,48 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.405 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
+- Finished resetting the current domain, in  0.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (120ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (147ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		LoadAllAssembliesAndSetupDomain (283ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (14ms)
+		LoadAllAssembliesAndSetupDomain (523ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-				TypeCache.Initialize (155ms)
-					TypeCache.ScanAssembly (152ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (483ms)
+				TypeCache.Initialize (306ms)
+					TypeCache.ScanAssembly (303ms)
+				ResolveRequiredComponents (9ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (324ms)
+			SetupLoadedEditorAssemblies (444ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5460 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 161 unused Assets / (13.5 MB). Loaded Objects now: 5806.
+Unloading 5461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 161 unused Assets / (13.5 MB). Loaded Objects now: 5807.
 Memory consumption went from 0.88 GB to 0.87 GB.
-Total: 4.225200 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.160300 ms  DeleteObjects: 1.616100 ms)
+Total: 5.667000 ms (FindLiveObjects: 0.536100 ms CreateObjectMapping: 0.173700 ms MarkObjects: 3.311700 ms  DeleteObjects: 1.644600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -166,297 +166,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4193.385778 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Lv_UP.sbs
-  artifactKey: Guid(0fad0cae0ce8e2541a6e55c874caf206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 34693.954286 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Lv_UP.sbs using Guid(0fad0cae0ce8e2541a6e55c874caf206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5432e35bef60762876d7fa2e31f8d5') in 0.046809 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 28.692874 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Sphere Normals.tga
-  artifactKey: Guid(e5965909147827f4b8cf90540c9871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Sphere Normals.tga using Guid(e5965909147827f4b8cf90540c9871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942cbfd68ce4fd4ef7da2727ed5ffa02') in 0.093130 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 22.325544 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Sphere Normals.tga
-  artifactKey: Guid(e5965909147827f4b8cf90540c9871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Sphere Normals.tga using Guid(e5965909147827f4b8cf90540c9871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f8fc02ecff917149af5761a6bf355b') in 0.014076 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 124.500330 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Sphere Normals.tga
-  artifactKey: Guid(e5965909147827f4b8cf90540c9871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Sphere Normals.tga using Guid(e5965909147827f4b8cf90540c9871d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83060dd8547f2b12481aa6219fa46965') in 0.019475 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 68.559112 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Outer Sphere.mat
-  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d82a98f6cdd676a0423b8532dcaba6') in 0.232326 seconds 
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f6a0ddb85123756e67ebd4ed25782a') in 0.278353 seconds 
 Number of asset objects unloaded after import = 211
 ========================================================================
 Received Import Request.
-  Time since last request: 4.757248 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph
-  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 128.828298 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab809ea1700e3ce44092460056c1d2a0') in 0.013218 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 165.756732 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Outer Sphere.mat
-  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/Materials/Lv Up/Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7153e9f6bbd67516ada2ebd7f1b71c02') in 0.256128 seconds 
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18bf063a4caa1cfb6d7f690987b3e29') in 0.019122 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 88.607273 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph
-  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 27.897783 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcb95379ad43dafc4653976b5ff9db6') in 0.028366 seconds 
-Number of asset objects unloaded after import = 5
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e7ab4ea4b829cdbd9a91946ddb757e') in 0.016463 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 57.768256 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Inner sphere.tga
-  artifactKey: Guid(90c2f494485d20a4a851f586946d6e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 422.210876 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Inner sphere.tga using Guid(90c2f494485d20a4a851f586946d6e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7951a0a6361a3c7dfc6294d4e289d2b3') in 0.012146 seconds 
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f6cc998ddf6ed48c794852902658a1') in 0.022992 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 71.890003 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba4be6e323a84363e5a1575fcdc11b6') in 0.013973 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 933.046235 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7470e4f78baa39d67092500a6d80b0e') in 0.016123 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 321.328503 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898cf1121e32f8cfdf94ce76adaf21d1') in 0.018088 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 144.814112 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat
+  artifactKey: Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/Height Expansion.mat using Guid(9ed107f1d45c0694cbcd603d266a41ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4cc61a7aab18dbc49e0561cf7306a3') in 0.016750 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 73.789437 seconds.
+  path: Assets/MYSTUFF/Images/Lv Up/Walls Height.tga
+  artifactKey: Guid(056d06559c381044c9b59a09d50b911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Images/Lv Up/Walls Height.tga using Guid(056d06559c381044c9b59a09d50b911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006e9daca7884fd4f6ec3cc058c9a36c') in 0.020619 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 64.819420 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Inner sphere.tga
-  artifactKey: Guid(90c2f494485d20a4a851f586946d6e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Inner sphere.tga using Guid(90c2f494485d20a4a851f586946d6e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a18f8ba2da596efb2823b7d747105dd') in 0.029620 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 295.156505 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/AtractingParticles.vfx
-  artifactKey: Guid(f3c6d775470c2a44ea1851155f1b832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 86.515044 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph
+  artifactKey: Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/AtractingParticles.vfx using Guid(f3c6d775470c2a44ea1851155f1b832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c254096ec98a700a3e2baf30da80a9f') in 0.163858 seconds 
-Number of asset objects unloaded after import = 6
+Start importing Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph using Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0f6a8e36a5f86342e49cc188861004') in 0.143778 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1337.789710 seconds.
-  path: Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx
-  artifactKey: Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx using Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a59c519d95d9292835d7b9c68bd814') in 0.069306 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 66.865605 seconds.
-  path: Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx
-  artifactKey: Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx using Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a4b937cabe7c39da5f28d97f0ede25') in 0.042505 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 427.146416 seconds.
+  Time since last request: 112.397513 seconds.
   path: Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable
   artifactKey: Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable using Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b6d3bdcd84ad2d651d9550f5ac559a') in 0.061000 seconds 
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 6.099172 seconds.
-  path: Assets/MYSTUFF/Timeline/Lv Up/Expansion Width.controller
-  artifactKey: Guid(f2b1a81d93cda5747aa7cff969209593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Timeline/Lv Up/Expansion Width.controller using Guid(f2b1a81d93cda5747aa7cff969209593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d9d641595a415548892b596315f467') in 0.010254 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 234.044348 seconds.
-  path: Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable
-  artifactKey: Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable using Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161cf71d8a1a48b4d67704fff305c248') in 0.006648 seconds 
+Start importing Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable using Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b790167d3f3b27a9895b941b095647a') in 0.016809 seconds 
 Number of asset objects unloaded after import = 36
 ========================================================================
 Received Import Request.
-  Time since last request: 2192.072684 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph
-  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 7.285734 seconds.
+  path: Assets/MYSTUFF/Timeline/Lv Up/Expansion Width.controller
+  artifactKey: Guid(f2b1a81d93cda5747aa7cff969209593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e1e2cf03a703fbc77c936505d9a53b') in 0.027839 seconds 
-Number of asset objects unloaded after import = 5
+Start importing Assets/MYSTUFF/Timeline/Lv Up/Expansion Width.controller using Guid(f2b1a81d93cda5747aa7cff969209593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecabbe314ff707979ab35821d1b9905') in 0.010543 seconds 
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 17.490846 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph
-  artifactKey: Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.552150 seconds.
+  path: Assets/MYSTUFF/Timeline/Lv Up/Expansion Tall.controller
+  artifactKey: Guid(b32a7d672615e3a40b0af00239b908f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph using Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4632edfe6ba172e11b980681ac894f2e') in 0.010998 seconds 
+Start importing Assets/MYSTUFF/Timeline/Lv Up/Expansion Tall.controller using Guid(b32a7d672615e3a40b0af00239b908f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5107e5be6b221a17b8cd0d884a8dc5de') in 0.007560 seconds 
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 17.605801 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat
-  artifactKey: Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.739348 seconds.
+  path: Assets/MYSTUFF/Timeline/Lv Up/Expansion Tall.anim
+  artifactKey: Guid(27f122e31a00dc34895396242704ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat using Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621aa5f8f12d04b9e056264a9013fc8') in 0.015241 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 42.191787 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Walls.tga
-  artifactKey: Guid(afb90ba052407d3409191148d51c6d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Walls.tga using Guid(afb90ba052407d3409191148d51c6d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cda7e2393928d54f3c02d49762dc1b') in 0.012186 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 18.961832 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph
-  artifactKey: Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph using Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542689dcb84d19a64c3f84873cb474d4') in 0.002501 seconds 
+Start importing Assets/MYSTUFF/Timeline/Lv Up/Expansion Tall.anim using Guid(27f122e31a00dc34895396242704ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93efc60405b3bf25ee3bd0de4e7203c8') in 0.003502 seconds 
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.785817 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph
-  artifactKey: Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1083.407922 seconds.
+  path: Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable
+  artifactKey: Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph using Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb974ee908812c1b28ed9c589cdcf18') in 0.002479 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 35.994164 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/New Material 1.mat
-  artifactKey: Guid(e0a45f33d2d8c294e9f050bc94db64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/New Material 1.mat using Guid(e0a45f33d2d8c294e9f050bc94db64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d00bbcef56b8f1cef26851c23c20fda') in 0.013627 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 57.799878 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/New Material 1.mat
-  artifactKey: Guid(e0a45f33d2d8c294e9f050bc94db64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/New Material 1.mat using Guid(e0a45f33d2d8c294e9f050bc94db64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c606135d022ff5ac73e3154ca25364') in 0.013163 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 30.733813 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Outer Sphere.mat
-  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/Materials/Lv Up/Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8c7c09d2c1bcdbf102633bb71dcbb8') in 0.287449 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph
-  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9eea92fac1ba27b0b705b00e33c2dc') in 0.013967 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 32.605864 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Shader Graphs_Sphere.mat
-  artifactKey: Guid(fc55c94aae1d3db41ad2d49251c6125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Shader Graphs_Sphere.mat using Guid(fc55c94aae1d3db41ad2d49251c6125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939365512f157184743bef76a44eac31') in 0.014016 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 8.974018 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/New Material 1.mat
-  artifactKey: Guid(e0a45f33d2d8c294e9f050bc94db64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/New Material 1.mat using Guid(e0a45f33d2d8c294e9f050bc94db64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7c293bef5c0d57745718269d69cefd') in 0.011464 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 39.009473 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph
-  artifactKey: Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Walls.shadergraph using Guid(2835528c0123b424b9919d52642ad690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bf649d1960f505875060c7698f58ee') in 0.226803 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 25.993576 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat
-  artifactKey: Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat using Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cd78edb74d66216808845f436ff3be') in 0.013522 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 23.145294 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat
-  artifactKey: Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat using Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d33e14256edfe738c292b929061a7fc') in 0.220186 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 118.694048 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat
-  artifactKey: Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/Width Expansion.mat using Guid(285993edeb86ff24cb0c278a7b553148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e44da084606d799ced4542c5278f275') in 0.017823 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 305.645567 seconds.
-  path: Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx
-  artifactKey: Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx using Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c7f815f897c3d001f28870f9f90160') in 0.031657 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 121.563615 seconds.
-  path: Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx
-  artifactKey: Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx using Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84a914d897518b80038f8991daab0bf') in 0.014075 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 142.751327 seconds.
-  path: Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx
-  artifactKey: Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Models/Lv Up/Uncap Cylinder.fbx using Guid(2f88fbd96f99217479414eafdcde93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c75f4bb1f869d1a1e776bcdb41a0e5') in 0.075417 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 107.045669 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Photoshop Textures.psd
-  artifactKey: Guid(7df4ed04d26c7064d8706c87b9350049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Photoshop Textures.psd using Guid(7df4ed04d26c7064d8706c87b9350049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4d6d727594a53840da10de8a864734') in 0.018804 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.210184 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Walls.tga
-  artifactKey: Guid(afb90ba052407d3409191148d51c6d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Walls.tga using Guid(afb90ba052407d3409191148d51c6d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962963692b3e025c3e7417111a1747eb') in 0.010934 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/MYSTUFF/Timeline/Lv Up/Lv Up.playable using Guid(525e203d1b325324194794e634db3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6e3839d6172773773935ea928ac77f') in 0.007727 seconds 
+Number of asset objects unloaded after import = 39
