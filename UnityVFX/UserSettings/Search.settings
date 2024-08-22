@@ -13,10 +13,10 @@ scopes = {
 	"OpenInspectorPreview.7E63D72B" = "0"
 	"currentGroup.7E63D72B" = "all"
 	"picker_window_position_offset.74AD8FDB" = "792;398;320;550"
-	"picker_search_text.74AD8FDB" = "parti"
-	"last_search.74AD8FDB" = "parti"
+	"picker_search_text.74AD8FDB" = "smoke "
+	"last_search.74AD8FDB" = "smoke "
 	"OpenInspectorPreview.74AD8FDB" = "0"
-	"currentGroup.74AD8FDB" = "_group_provider_Texture 2D"
+	"currentGroup.74AD8FDB" = "all"
 	"last_search.310DEAF1" = ""
 	"OpenInspectorPreview.310DEAF1" = "0"
 	"currentGroup.310DEAF1" = "all"
@@ -71,6 +71,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"s"
 ]
 searchItemFavorites = [
 ]
