@@ -15,7 +15,7 @@ C:/Users/madar/Downloads/VFX/UnityVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56991
+61759
 Successfully changed project path to: C:/Users/madar/Downloads/VFX/UnityVFX
 C:/Users/madar/Downloads/VFX/UnityVFX
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/madar/Downloads/VFX/UnityVFX
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29108] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 1662070816 [EditorId] 1662070816 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28468] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 238502297 [EditorId] 238502297 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29108] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 1662070816 [EditorId] 1662070816 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28468] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 238502297 [EditorId] 238502297 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003537 seconds.
-- Loaded All Assemblies, in  0.176 seconds
+Registered in 0.003856 seconds.
+- Loaded All Assemblies, in  0.220 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.151 seconds
+- Finished resetting the current domain, in  0.168 seconds
 Domain Reload Profiling:
-	ReloadAssembly (101ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (125ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (39ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
-				TypeCache.Initialize (70ms)
-					TypeCache.ScanAssembly (69ms)
+			SetupTypeCache (89ms)
+				TypeCache.Initialize (89ms)
+					TypeCache.ScanAssembly (88ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (115ms)
+			SetupLoadedEditorAssemblies (131ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,48 +109,48 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.554 seconds
-Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.663 seconds
+- Finished resetting the current domain, in  0.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (124ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (153ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		LoadAllAssembliesAndSetupDomain (428ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (358ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
-				TypeCache.Initialize (251ms)
-					TypeCache.ScanAssembly (246ms)
-				ResolveRequiredComponents (10ms)
+			SetupTypeCache (326ms)
+				TypeCache.Initialize (198ms)
+					TypeCache.ScanAssembly (194ms)
+				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (491ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5462 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 161 unused Assets / (13.5 MB). Loaded Objects now: 5808.
-Memory consumption went from 0.88 GB to 0.87 GB.
-Total: 5.115300 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.186200 ms MarkObjects: 2.399100 ms  DeleteObjects: 2.086200 ms)
+Unloading 5463 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 161 unused Assets / (13.5 MB). Loaded Objects now: 5809.
+Memory consumption went from 0.89 GB to 0.87 GB.
+Total: 5.950300 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.120200 ms MarkObjects: 2.790400 ms  DeleteObjects: 2.596300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -166,9 +166,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7298.156831 seconds.
+  Time since last request: 37872.836166 seconds.
   path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
   artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099eacbd98792c753caba71919d00c8a') in 0.475301 seconds 
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7d443a7965a722cc019035a26446c1') in 0.498136 seconds 
 Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 47.346298 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822ac8b03da782eb03a9a43b9c97a70f') in 0.178187 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 455.773381 seconds.
+  path: Assets/MYSTUFF/Images/Lv Up/Photoshop Textures.psd
+  artifactKey: Guid(7df4ed04d26c7064d8706c87b9350049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Images/Lv Up/Photoshop Textures.psd using Guid(7df4ed04d26c7064d8706c87b9350049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd984a45dbc4d87bee9b64bef4b30e') in 0.035876 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.904827 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_SpriteParticle.shadergraph
+  artifactKey: Guid(947d6135284b49843892d8bddc1e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_SpriteParticle.shadergraph using Guid(947d6135284b49843892d8bddc1e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668f75db6ff4d4a6fb29643e23ced75b') in 0.012020 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.664764 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Polar Color Alpha.shadergraph
+  artifactKey: Guid(3ffa3a75538e66e4592c357f03afffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Polar Color Alpha.shadergraph using Guid(3ffa3a75538e66e4592c357f03afffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c500fdec5289e4dea6761059e28a45a5') in 0.017438 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 302.353315 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c6f3a1c50738b2759e9f7967e007a0') in 0.183870 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 20.333547 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8568900f0296be10b33bf7c7793ee70e') in 0.186474 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 13.877009 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dbdff8e04dc4db63de41635c154cbe') in 0.170141 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.282197 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ec636c2e530503733c0554d9c8c8a3') in 0.178142 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 9.326455 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c6728547d0e0718031a5e4883216a') in 0.188000 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 43.446643 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4e2fbada6e1b7b03e8a71b7e7a9a8e') in 0.177132 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.265322 seconds.
+  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
+  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e154aa8d852d6c043d0ef5b536511ae') in 0.196252 seconds 
+Number of asset objects unloaded after import = 6
