@@ -15,7 +15,7 @@ C:/Users/madar/Downloads/VFX/UnityVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61759
+54553
 Successfully changed project path to: C:/Users/madar/Downloads/VFX/UnityVFX
 C:/Users/madar/Downloads/VFX/UnityVFX
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/madar/Downloads/VFX/UnityVFX
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28468] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 238502297 [EditorId] 238502297 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29044] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 2669004458 [EditorId] 2669004458 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28468] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 238502297 [EditorId] 238502297 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29044] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 2669004458 [EditorId] 2669004458 [Version] 1048832 [Id] WindowsEditor(7,AJASUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003856 seconds.
-- Loaded All Assemblies, in  0.220 seconds
+Registered in 0.004009 seconds.
+- Loaded All Assemblies, in  0.313 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.168 seconds
+- Finished resetting the current domain, in  0.173 seconds
 Domain Reload Profiling:
-	ReloadAssembly (125ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (191ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (0ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (49ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
-				TypeCache.Initialize (89ms)
-					TypeCache.ScanAssembly (88ms)
+			SetupTypeCache (117ms)
+				TypeCache.Initialize (114ms)
+					TypeCache.ScanAssembly (113ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (131ms)
+			SetupLoadedEditorAssemblies (134ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,48 +109,48 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.514 seconds
-Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.533 seconds
+- Finished resetting the current domain, in  0.548 seconds
 Domain Reload Profiling:
-	ReloadAssembly (153ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (110ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		LoadAllAssembliesAndSetupDomain (358ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (11ms)
+		LoadAllAssembliesAndSetupDomain (541ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-				TypeCache.Initialize (198ms)
-					TypeCache.ScanAssembly (194ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (474ms)
+				TypeCache.Initialize (327ms)
+					TypeCache.ScanAssembly (325ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (398ms)
+			SetupLoadedEditorAssemblies (416ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5463 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 161 unused Assets / (13.5 MB). Loaded Objects now: 5809.
 Memory consumption went from 0.89 GB to 0.87 GB.
-Total: 5.950300 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.120200 ms MarkObjects: 2.790400 ms  DeleteObjects: 2.596300 ms)
+Total: 4.460500 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.105700 ms MarkObjects: 2.488600 ms  DeleteObjects: 1.523700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -166,97 +166,465 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 37872.836166 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 7052.934352 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7d443a7965a722cc019035a26446c1') in 0.498136 seconds 
-Number of asset objects unloaded after import = 214
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0b5abe9f33afbfacb82a7333f7780a') in 0.618806 seconds 
+Number of asset objects unloaded after import = 212
 ========================================================================
 Received Import Request.
-  Time since last request: 47.346298 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822ac8b03da782eb03a9a43b9c97a70f') in 0.178187 seconds 
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 455.773381 seconds.
-  path: Assets/MYSTUFF/Images/Lv Up/Photoshop Textures.psd
-  artifactKey: Guid(7df4ed04d26c7064d8706c87b9350049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 36.513539 seconds.
+  path: Assets/MYSTUFF/Images/Lv Up/Perlin.tga
+  artifactKey: Guid(cec7bf81e3c43ae4281a842bc94d8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Images/Lv Up/Photoshop Textures.psd using Guid(7df4ed04d26c7064d8706c87b9350049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd984a45dbc4d87bee9b64bef4b30e') in 0.035876 seconds 
+Start importing Assets/MYSTUFF/Images/Lv Up/Perlin.tga using Guid(cec7bf81e3c43ae4281a842bc94d8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcec79c2a1d72a9ac12f2373ad9f08ef') in 0.630400 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 32.904827 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/M_SpriteParticle.shadergraph
-  artifactKey: Guid(947d6135284b49843892d8bddc1e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 118.753867 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/M_SpriteParticle.shadergraph using Guid(947d6135284b49843892d8bddc1e9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668f75db6ff4d4a6fb29643e23ced75b') in 0.012020 seconds 
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7b5a4e69c1480833e82d5b9c6e6109') in 0.019317 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 32.983990 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d2e51b9440f19b37dfaffebff3e0f6') in 0.227932 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.107248 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd47799b0fb7c7de8464258f980468fc') in 0.013184 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.966373 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783c29554b7c0410678d6c2cfb54be94') in 0.014286 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 60.655478 seconds.
+  path: Assets/MYSTUFF/Images/Lv Up/Perlin.tga
+  artifactKey: Guid(cec7bf81e3c43ae4281a842bc94d8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Images/Lv Up/Perlin.tga using Guid(cec7bf81e3c43ae4281a842bc94d8801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd0c4723a7e5b64ca18d31b094b8c98') in 0.015982 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 22.664764 seconds.
-  path: Assets/MYSTUFF/Materials/Lv Up/M_Polar Color Alpha.shadergraph
-  artifactKey: Guid(3ffa3a75538e66e4592c357f03afffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 72.506904 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f225afd686f4414c203266638aa8f1f') in 0.372160 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4771.979307 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cf9f1cf2e43473115e101942a6871a') in 0.303552 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 29.843143 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c9c47bf324cf9e59ad8dc8cf34f991') in 0.336079 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.793852 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ac110eaa5a1165350fcbf203c2d2f3') in 0.312749 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 333.746447 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Pen.png
+  artifactKey: Guid(bb42fb9342e9d4e68b6cf39a2e071d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MYSTUFF/Materials/Lv Up/M_Polar Color Alpha.shadergraph using Guid(3ffa3a75538e66e4592c357f03afffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c500fdec5289e4dea6761059e28a45a5') in 0.017438 seconds 
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Pen.png using Guid(bb42fb9342e9d4e68b6cf39a2e071d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29919d2b73e43dc309a668635010fe2') in 0.043220 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 302.353315 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c6f3a1c50738b2759e9f7967e007a0') in 0.183870 seconds 
-Number of asset objects unloaded after import = 6
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Pen@3x.png
+  artifactKey: Guid(17b3fef87d666459d860ad88452862da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Pen@3x.png using Guid(17b3fef87d666459d860ad88452862da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c562c7cb3cf966a8bb15dc102cdf49') in 0.015833 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 20.333547 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8568900f0296be10b33bf7c7793ee70e') in 0.186474 seconds 
-Number of asset objects unloaded after import = 6
+  Time since last request: 21710.995360 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c3ae0cb44eb77e6c4a4133691ea87e') in 0.108624 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 13.877009 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dbdff8e04dc4db63de41635c154cbe') in 0.170141 seconds 
-Number of asset objects unloaded after import = 6
+  Time since last request: 2.976785 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15157aee8b5fadea6511d61b94e436f1') in 0.025905 seconds 
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 3.282197 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 207.055322 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ec636c2e530503733c0554d9c8c8a3') in 0.178142 seconds 
-Number of asset objects unloaded after import = 6
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ac1d610ed7f4f9fbcc800953c60a98') in 0.290577 seconds 
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 9.326455 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c6728547d0e0718031a5e4883216a') in 0.188000 seconds 
-Number of asset objects unloaded after import = 6
+  Time since last request: 0.014824 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c708bc8adec996a24967e1dd65bccec') in 0.103930 seconds 
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 43.446643 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 10.355462 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4e2fbada6e1b7b03e8a71b7e7a9a8e') in 0.177132 seconds 
-Number of asset objects unloaded after import = 6
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5359ee68de030ebd356d56fa41e52e3e') in 0.304007 seconds 
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 3.265322 seconds.
-  path: Assets/MYSTUFF/VFX/Lv Up/Mist.vfx
-  artifactKey: Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000036 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6da5f40ee7730fd27867371a61aef89') in 0.013692 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.130745 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 1
-Start importing Assets/MYSTUFF/VFX/Lv Up/Mist.vfx using Guid(08e295f1016e1974f8a46216265123d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e154aa8d852d6c043d0ef5b536511ae') in 0.196252 seconds 
-Number of asset objects unloaded after import = 6
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5805f057fde5fba1ee2c19fbb23917') in 0.291633 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1fc3e72bd79c2a5ffb8febe37fe636') in 0.014141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.254497 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7918eda78d7cc29346cef4777ccb4a') in 0.300797 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fe7fd3b6147c85827a9d9817b6fdd3') in 0.013456 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 29.833522 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddb64bf8dc45fff4f3aa9c0c70a4c72') in 0.297560 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99767846824e0c5a8c61ff006abe545a') in 0.013603 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.624798 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db1a2225e5fc3b203db29980e6126c9') in 0.286253 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2125e569789a0fb836d347a8f3ddc6') in 0.014533 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 54.929509 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1c41c5e20b81864da0ddabbb1388dd') in 0.303983 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c6ecdc5ae3a6adc75cf79dcce039d3') in 0.013667 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 35.447096 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44837c596d0f685153615097909cfb56') in 0.300698 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f903b341a1acc224efa496ac3c16e8') in 0.014088 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.952917 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f913a949a07d17a2106a9323c4865b9') in 0.285908 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21aa295ca65d66ac2dee636351fa4994') in 0.013329 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 46.889533 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46df83fd97e6bf0223bb4ebfae551ae') in 0.310232 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da787f337a2f2a444e5f736f642db260') in 0.015634 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.339503 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060f980010107db83dff2e41888fc66b') in 0.297393 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124d2d6bbf0b005ca323e7e0e613454e') in 0.014090 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.386130 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78737604a967c3272d4bae0b25b85752') in 0.295972 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87340730f44e051f1a797cbf2dfab5e') in 0.013936 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.208768 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a7928813f30406c0c9a3ff5a4b1620') in 0.299783 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865369e8dfc663619a107c1fa4da8729') in 0.015697 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.396984 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdb980b849e8571b07fee44293184c5') in 0.297579 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc1dcd0a1865d2dbfb43fef38012bd') in 0.014786 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.099333 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0708439dc78bcfc10db10074d26e22a') in 0.302087 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9ff9625373905959efe126871a4500') in 0.014354 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.986653 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b3a2fb39f15ae95e95c3b512c5bfd7') in 0.294376 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9f4d2c43e1780c62889ab7526173ef') in 0.014515 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.840019 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954f53a797c38bce5b1b356e168dc02c') in 0.311798 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b48d4a15b56f73f47b15f3718c3f874') in 0.013425 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.985079 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cc5e3d48b004728d19fab31e726927') in 0.300698 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab2451221a151ad3d9d730d3e16c1b4') in 0.013141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.749259 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07227b64f39ac44f2ec1e8095336e4a4') in 0.311698 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd979cef576a98544052a53f4f330de51') in 0.015371 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.345175 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph
+  artifactKey: Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/M_Sphere.shadergraph using Guid(168dc856cf73a6e4a80f022106a7fa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2619829b742462c04d2b5a2bb82571e2') in 0.282207 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat
+  artifactKey: Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_Outer Sphere.mat using Guid(87d99ebd2a13ec140a7924b4cee7ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39629d21dda41bfab18f47dd1eede96e') in 0.015112 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 151.957584 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bc88159d46edab107c9912456ea4fe') in 0.300038 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 14.172916 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c712e949ebbb5e877bfa0ec54019252') in 0.299998 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.194986 seconds.
+  path: Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat
+  artifactKey: Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/MYSTUFF/Materials/Lv Up/MI_InnerSphere.mat using Guid(7e87f2ff22024d24488a9dfa1ee9a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcf8d865918fc87c977e25887294910') in 0.318115 seconds 
+Number of asset objects unloaded after import = 4
