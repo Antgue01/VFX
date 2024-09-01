@@ -13,17 +13,18 @@ using System.IO;
 public class GradientBaker : ScriptableObject
 {
     // Start is called before the first frame update
+    [SerializeField]
     Gradient _gradient;
+    [SerializeField]
     string _name;
-    public Gradient gradient { get { return _gradient; } set { _gradient = value; } }
-    public string path { get { return _name; } set { _name = value; } }
-   
+
+
     public void Bake()
-   
+
     {
         Debug.Log(_name);
-        
-        Texture2D t = new Texture2D(512, 1,TextureFormat.RGBAHalf,true);
+
+        Texture2D t = new Texture2D(512, 1, TextureFormat.RGBAHalf, true);
         for (int i = 0; i < 512; i++)
             t.SetPixel(i, 0, _gradient.Evaluate((float)(i) / 512f));
         t.Apply();
@@ -31,7 +32,7 @@ public class GradientBaker : ScriptableObject
         if (!System.IO.Directory.Exists("Assets/MYSTUFF/Images/Gradients"))
             System.IO.Directory.CreateDirectory("Assets/MYSTUFF/Images/Gradients");
         //AssetDatabase.CreateAsset(t, "Assets/MYSTUFF/Images/Gradients/" + _name + ".asset");
-        System.IO.File.WriteAllBytes("Assets/MYSTUFF/Images/Gradients/" + _name +".exr", b);
+        System.IO.File.WriteAllBytes("Assets/MYSTUFF/Images/Gradients/" + _name + ".exr", b);
         AssetDatabase.Refresh();
     }
 }
