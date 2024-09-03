@@ -104,5 +104,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 0.6495064, b: 0.11792451, a: 0}
     - _Primary: {r: 1, g: 0.5694697, b: 0, a: 0}
-    - _Secondary: {r: 1, g: 0.5058824, b: 0, a: 0}
+    - _Secondary: {r: 1, g: 0.9616419, b: 0.6273585, a: 0}
   m_BuildTextureStacks: []

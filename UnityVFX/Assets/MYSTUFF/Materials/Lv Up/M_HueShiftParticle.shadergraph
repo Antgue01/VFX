@@ -146,8 +146,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 228.0,
+            "y": 202.0
         },
         "m_Blocks": [
             {
@@ -522,7 +522,7 @@
         "a": 0.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {

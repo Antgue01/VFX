@@ -24,14 +24,18 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 2835528c0123b424b9919d52642ad690, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -58,16 +62,29 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _CastShadows: 0
+    - _Clamped: 0
+    - _Cull: 0
     - _Dissolve: 0.1
+    - _DstBlend: 10
     - _Mask_Offset: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 1
     - _Speed: -0.3
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _UV_Offset: 0
     - _Vertex_Dissolve: 0.02
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     - _d: 29.98
     - _o: 19.5
     m_Colors:
     - _Main_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Secondary_Color: {r: 2.9482172, g: 1.3113425, b: 0, a: 0}
+    - _Secondary_Color: {r: 3.936102, g: 3.1437871, b: 0.72409433, a: 0}
   m_BuildTextureStacks: []
