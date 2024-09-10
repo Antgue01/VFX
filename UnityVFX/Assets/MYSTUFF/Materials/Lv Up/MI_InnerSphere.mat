@@ -30,7 +30,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradient:
-        m_Texture: {fileID: 2800000, guid: 881986ddcc56b4645a9b83ac0dd577e5, type: 2}
+        m_Texture: {fileID: 2800000, guid: 1d66defa15bc42242a4993f0e64bd24d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
@@ -64,6 +64,7 @@ Material:
     - _ColorSpeed: -0.23
     - _Cull: 2
     - _DstBlend: 0
+    - _HueShift: 0
     - _QueueControl: 0
     - _QueueOffset: -16
     - _ReceiveShadows: 1
@@ -77,7 +78,7 @@ Material:
     - _ZWriteControl: 1
     m_Colors:
     - _Primary: {r: 1, g: 0.99117553, b: 0.422, a: 0}
-    - _Secondary: {r: 0.83, g: 0.8206482, b: 0.21745996, a: 1}
+    - _Secondary: {r: 0.9056604, g: 0.68297666, b: 0.15806337, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7286559819085785471
 MonoBehaviour:

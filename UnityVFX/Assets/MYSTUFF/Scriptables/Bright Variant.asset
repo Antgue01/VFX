@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7c833555bd6ec41b713c341a0dd419, type: 3}
+  m_Name: Bright Variant
+  m_EditorClassIdentifier: 
+  _sphereMainColor: {r: 1, g: 0.9903333, b: 0.42000002, a: 0}
+  _sphereSecondaryColor: {r: 0.91, g: 0.68341, b: 0.15470003, a: 0}
+  _baseColor: {r: 1, g: 0.84533334, b: 0.42000002, a: 0}
+  _characterColor: {r: 3.0353994, g: 2.7981324, b: 1.0016818, a: 0}
+  _heightColor: {r: 3.9412532, g: 3.1431494, b: 0.7488381, a: 0}
+  _swirlPrimaryColor: {r: 0.76, g: 0.6206667, b: 0, a: 0}
+  _swirlSecondaryColor: {r: 2.3931808, g: 2.2814994, b: 0.71795434, a: 0}
+  _widthMainColor: {r: 1, g: 0.5, b: 0, a: 0}
+  _widthSecondaryColor: {r: 2.642469, g: 2.2742848, b: 0.6341925, a: 0}
+  _attractingParticlesColor: {r: 2.6116514, g: 1.3162725, b: 0.1828156, a: 0}
+  _floatingParticlesColor: {r: 4.2426376, g: 3.8353448, b: 1.5273497, a: 0}

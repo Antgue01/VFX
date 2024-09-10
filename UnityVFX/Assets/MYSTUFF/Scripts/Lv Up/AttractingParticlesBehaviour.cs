@@ -17,6 +17,7 @@ public class AttractingParticlesBehaviour : PlayableBehaviour
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
         _vfx.SetVector3("Center Pos", _transform.position);
+        //_vfx.SetVector3("Center Pos", new Vector3());
         
     }
 }

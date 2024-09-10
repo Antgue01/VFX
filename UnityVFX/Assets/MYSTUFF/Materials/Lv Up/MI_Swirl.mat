@@ -70,6 +70,7 @@ Material:
     - _Cull: 0
     - _Dissolve: 0
     - _DstBlend: 10
+    - _HueShift: 0
     - _Mask_Offset: 1
     - _QueueControl: 0
     - _QueueOffset: 0

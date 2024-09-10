@@ -40,6 +40,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1efd2d253cdbafb469e7e459eefb7d04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: 1d66defa15bc42242a4993f0e64bd24d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_bbe9c2c592f04670afc9b8ed3d8cef99_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -60,6 +64,7 @@ Material:
     m_Floats:
     - _Alpha: 1
     - _Dissolve: 0
+    - _HueShift: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
