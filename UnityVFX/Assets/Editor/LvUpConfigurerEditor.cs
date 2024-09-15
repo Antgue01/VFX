@@ -9,7 +9,7 @@ public class LvUpConfigurerEditor : Editor
     {
         LvUpConfigure lvUpConfigure = target as LvUpConfigure;
         DrawDefaultInspector();
-        if (GUILayout.Button("Apply"))
+        //if (GUILayout.Button("Apply"))
             lvUpConfigure.Action();
             
     }

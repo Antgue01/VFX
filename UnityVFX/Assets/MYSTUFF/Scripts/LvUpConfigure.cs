@@ -20,29 +20,29 @@ public class LvUpConfigure : MonoBehaviour
     {
 
         if (_character)
-            _character.material.SetColor("_Fresnel_Color", _settings._characterColor);
+            _character.sharedMaterial.SetColor("_Fresnel_Color", _settings._characterColor);
         if (_innerSphere)
         {
-            _innerSphere.material.SetColor("_Primary", _settings._sphereMainColor);
-            _innerSphere.material.SetColor("_Secondary", _settings._sphereSecondaryColor);
+            _innerSphere.sharedMaterial.SetColor("_Primary", _settings._sphereMainColor);
+            _innerSphere.sharedMaterial.SetColor("_Secondary", _settings._sphereSecondaryColor);
         }
         if (_outerSphere)
-            _outerSphere.material.SetColor("_Secondary", _settings._sphereMainColor);
+            _outerSphere.sharedMaterial.SetColor("_Secondary", _settings._sphereMainColor);
         if (_base)
-            _base.material.SetColor("_Color", _settings._baseColor);
+            _base.sharedMaterial.SetColor("_Color", _settings._baseColor);
         if (_swirl)
         {
-            _swirl.material.SetColor("_Main_Color", _settings._swirlPrimaryColor);
-            _swirl.material.SetColor("_Secondary_Color", _settings._swirlSecondaryColor);
+            _swirl.sharedMaterial.SetColor("_Main_Color", _settings._swirlPrimaryColor);
+            _swirl.sharedMaterial.SetColor("_Secondary_Color", _settings._swirlSecondaryColor);
         }
         if (_width)
         {
-            _width.material.SetColor("_Main_Color", _settings._widthMainColor);
-            _width.material.SetColor("_Secondary_Color", _settings._widthSecondaryColor);
+            _width.sharedMaterial.SetColor("_Main_Color", _settings._widthMainColor);
+            _width.sharedMaterial.SetColor("_Secondary_Color", _settings._widthSecondaryColor);
 
         }
         if (_tall)
-            _tall.material.SetColor("_Secondary_Color", _settings._heightColor);
+            _tall.sharedMaterial.SetColor("_Secondary_Color", _settings._heightColor);
         if (_floating)
             _floating.SetVector4("Particles Color", new Vector4(_settings._floatingParticlesColor.gamma.r, _settings._floatingParticlesColor.gamma.g, _settings._floatingParticlesColor.gamma.b, 1));
         if (_attracting)

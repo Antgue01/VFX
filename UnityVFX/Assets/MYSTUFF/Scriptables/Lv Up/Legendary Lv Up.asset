@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f7c833555bd6ec41b713c341a0dd419, type: 3}
-  m_Name: Bright Variant
+  m_Name: Legendary Lv Up
   m_EditorClassIdentifier: 
   _sphereMainColor: {r: 1, g: 0.9903333, b: 0.42000002, a: 0}
   _sphereSecondaryColor: {r: 0.91, g: 0.68341, b: 0.15470003, a: 0}

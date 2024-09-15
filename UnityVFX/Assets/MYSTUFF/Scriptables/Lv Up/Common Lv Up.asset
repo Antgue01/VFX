@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7c833555bd6ec41b713c341a0dd419, type: 3}
+  m_Name: Common Lv Up
+  m_EditorClassIdentifier: 
+  _sphereMainColor: {r: 0, g: 1.2494843, b: 0.13083601, a: 0}
+  _sphereSecondaryColor: {r: 0.18123074, g: 0.589, b: 0.11726696, a: 0}
+  _baseColor: {r: 0.07494554, g: 2.0360148, b: 0, a: 0}
+  _characterColor: {r: 0, g: 1.5157166, b: 0.21090965, a: 0}
+  _heightColor: {r: 0.06848611, g: 2.6390157, b: 0, a: 0}
+  _swirlPrimaryColor: {r: 0, g: 1.2981586, b: 0.2718656, a: 0}
+  _swirlSecondaryColor: {r: 0, g: 1.5604959, b: 0.24536107, a: 0}
+  _widthMainColor: {r: 0.044590473, g: 1.044984, b: 0, a: 0}
+  _widthSecondaryColor: {r: 0, g: 1.9081749, b: 0.09112172, a: 0}
+  _attractingParticlesColor: {r: 0.37000236, g: 13.874978, b: 0, a: 0}
+  _floatingParticlesColor: {r: 0.6803644, g: 1.9289464, b: 0.59142226, a: 0}
